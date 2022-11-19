@@ -1,0 +1,99 @@
+html,
+body {
+	height: 100%;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 3em;
+    background-color: #CED8F6;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: orange;
+    padding: 5px;
+    height: 100%;
+}
+    
+ 
+ .logo img {
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+}
+
+
+ul {
+	display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: red;
+    font-weight: 800;
+}
+
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    background: #CED8F6;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    background: #CED8F6;
+}
+
+.fullname {
+    margin-right: 20px;
+    flex-basis: 750px;
+}
+
+.myImg {
+    margin-top: 100px;
+    padding-left: 25px;
+    flex-basis: 450px;
+}
+
+.knowledge {
+    display: flex;   
+    justify-content: center;
+    color: grey;
+    background: #CED8F6;
+}
+
+
+p {
+    font-size: 1.8rem;
+    color: #08298A;
+    padding-left: 15px;
+}
+
+
+h1 {
+    color: #08298A;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.footer {
+    background-color: orange;
+}
